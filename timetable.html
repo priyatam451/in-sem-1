@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    body {
+        background-color: #f0f8ff;
+        font-family: Arial, sans-serif;
+    }
+    h1 {
+        text-align: center;
+        color: #2c3e50;
+        text-shadow: 2px 2px 4px #aaa;
+    }
+    table {
+        width: 80%;
+        margin: auto;
+        border-collapse: collapse;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+    th, td {
+        border: 1px solid #555;
+        padding: 10px;
+        text-align: center;
+    }
+    th {
+        background-color: #34495e;
+        color: white;
+    }
+    tr:nth-child(even) {
+        background-color: #ecf0f1;
+    }
+    tr:nth-child(odd) {
+        background-color: #fdfefe;
+    }
+    td:hover {
+        background-color: #ffeaa7;
+        cursor: pointer;
+    }
+</style>
+</head>
+<body>
+
+<h1>Weekly Student Timetable</h1>
+
+<table>
+  <tr>
+    <th rowspan="2">Days</th>
+    <th colspan="5">Subjects</th>
+  </tr>
+  <tr>
+    <th>Hour-1</th>
+    <th>Hour-2</th>
+    <th>Hour-3</th>
+    <th>Hour-4</th>
+    <th>Hour-5</th>
+  </tr>
+  
+  <tr><td>Monday</td><td>FEDF</td><td>AIML</td><td>OOPS</td><td>DAA</td><td>DBMS</td></tr>
+  <tr><td>Tuesday</td><td>DBMS</td><td>DAA</td><td>AIML</td><td>OOPS</td><td>FEDF</td></tr>
+  <tr><td>Wednesday</td><td>OOPS</td><td>FEDF</td><td>DAA</td><td>DBMS</td><td>AIML</td></tr>
+  <tr><td>Thursday</td><td>AIML</td><td>OOPS</td><td>FEDF</td><td>DAA</td><td>DBMS</td></tr>
+  <tr><td>Friday</td><td>DAA</td><td>DBMS</td><td>FEDF</td><td>AIML</td><td>OOPS</td></tr>
+  <tr><td>Saturday</td><td>DBMS</td><td>FEDF</td><td>AIML</td><td>OOPS</td><td>DAA</td></tr>
+</table>
+
+</body>
+</html>
